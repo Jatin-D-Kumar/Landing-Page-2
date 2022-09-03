@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu',sans-serif;
+}
+.container{
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu',sans-serif;
+}
+.header h2{
+    font: bold;
+    display: flex;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+.header li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    display: flex;
+}
+.topleft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    justify-content: center;
+    padding: 12px;
+}
+.topleft h3{
+    padding: 10px 0;
+    font-size: 2em;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.section2{
+    padding: 20px 0;
+}
+.section2 h2{
+    padding: 12px 0;
+}
+.section2 img{
+    height: 200px;
+    width: 100%;
+}
+.deals{
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.deals div{
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.deals div p{
+    padding: 10px;
+}
+.section3{
+    padding: 20px 0;
+}
+.section3 h2,.section3 p{
+    padding: 12px 0;
+}
+.section3 img{
+    height: 250px;
+    width: 100%;
+}
+.section3 div{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.section3 div span{
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+}
+.section3 div div{
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.section4{
+    text-align: center;
+    padding: 20px 0;
+}
+.section4 h2{
+    padding: 12px 0;
+}
+.section4 img{
+    height: 200px;
+    width: 100%;
+}
+.section4 div{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.drawform{
+    border: 1px solid rgba(11, 10, 10, 0.63);
+    padding: 20px;
+}
+.drawform input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+}
+input[type='submit']{
+    background-color: rgb(15, 99, 216);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.drawimage{
+    padding: 20px;
+}
+.drawimage img{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    height: 100px;
+}
+#demo,#demo2{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: red;
+}
